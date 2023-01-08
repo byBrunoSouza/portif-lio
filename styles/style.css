@@ -1,0 +1,71 @@
+:root {
+  --fs-text: font-size: 1.6rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #09090b;
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  
+  font-size: 1.6rem;
+}
+
+header {
+  display: none;
+}
+
+main {
+  padding: 0 2.4rem;
+}
+
+section {
+  margin-bottom: 4.8rem ;
+}
+
+.section-hero,.primary-paragraph, h1, h2  {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  margin-bottom: 1.4rem;
+}
+
+.text-gray {
+  color: #828282;
+}
+
+.hero-me {
+  margin-bottom: 3.2rem;
+} 
+
+button {
+  padding: .8rem 1.6rem ;
+  border: none;
+  font-family: 'DM Sans', sans-serif;
+
+  font-weight: 700;
+}
+
+.button-primary {
+  background-color: #1864AB;
+}
+
+.button-secondary {
+  color: #fff;
+  background-color: #09090b;
+  border: 1px solid #171717;
+}
